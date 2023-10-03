@@ -19,7 +19,7 @@ challenges: |
 solution: |
   The API is now described with AsyncAPI. The AsyncAPI file, stored with the source code, generates HTML documentation in the same release pipeline for the product. Documentation is exposed internally as part of the product for other company units depending on the API.
 
-  Payloads are described with Avro schema. These schemas generate models and are referenced directly in AsyncAPI files thanks to the **schemaFormat** feature and **$ref**. This way, they make sure the code is aligned with the docs.
+  Payloads are described with Avro schema. These schemas generate models and are referenced directly in AsyncAPI files thanks to the `schemaFormat` feature and `$ref`. This way, they make sure the code is aligned with the docs.
 
   Shift to using AsyncAPI also enables the team to implement more use cases using AsyncAPI files.
 technical:
